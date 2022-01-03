@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise - 4</title>
+</head>
+
+<style>
+    body{
+        background-color:rgba(204, 79, 60, 0.6);
+        /* 
+            rgba: red,green,blue,alpha
+        */
+
+
+    }
+
+    /* 
+    
+    nav: navigation
+    */
+
+</style>
+<body>
+    <!-- Method'u belirtmezsek default olarak GET geliyor. -->
+
+    <form method="POST">
+
+    İsim: <input type="text" placeholder="İsim:" name="isim"><br><br>
+    Soyisim: <input type="text" placeholder="Soyadınızı Giriniz..." name="soyisim"><br><br>
+    Sevdiğiniz Spor: <input type="checkbox" name="futbol" id="futbol">Futbol
+                     <input type="checkbox" name="basketbol" id="basketbol">Basketbol
+                     <input type="checkbox" name="voleybol" id="voleybol">Voleybol
+        <br><br>
+
+    Cinsiyet: <input type="radio" name="Gender" id="erkek">Erkek
+              <input type="radio" name="Gender" id="kadın">Kadın
+
+        <br><br>
+    
+    <p> Güvenlik Sorusu: Türkiye'nin başkenti neresidir?</p>
+
+    <select name="guvenlikSorunu" id="genvelikSorunu">
+        <option value="bos">Lütfen bir cevap seçiniz</option>
+        <option value="Ankara">Ankara</option>
+        <option value="Istanbul">Istanbul</option>
+        <option value="Izmir">Izmir</option>
+    </select>
+
+    <br><br>
+    <input type="submit" value="Kayıt Ol">
+    
+</form>
+    
+</body>
+</html>
